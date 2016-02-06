@@ -8,3 +8,5 @@ angular.element(document).ready(() => {
   angular.bootstrap(document, [appModule.name], {
   });
 });
+
+require('../eforms/eform-ctrl')(appModule);
