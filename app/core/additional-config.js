@@ -8,7 +8,7 @@ module.exports = function(app) {
 
     formlyConfig.setType({
       name: 'repeatSection',
-      template: '<div> 	<div class="{{hideRepeat}}">          <div class="repeatsection" ng-repeat="element in model[options.key]" ng-init="fields = copyFields(to.fields)">            <formly-form fields="fields"                         model="element"                         form="form">            </formly-form>            <div style="margin-bottom:20px;">              <button type="button" class="btn btn-sm btn-danger" ng-click="model[options.key].splice($index, 1)">                Remove              </button>            </div>            <hr>        </div>        <p class="AddNewButton">  	      <button type="button" class="btn btn-primary" ng-click="addNew()" >{{to.btnText}}</button>        </p>      </div>',
+      template: '<div> 	<div class="{{hideRepeat}}"><div class="repeatsection" ng-repeat="element in model[options.key]" ng-init="fields = copyFields(to.fields)"> <formly-form fields="fields"                         model="element"form="form"></formly-form><div style="margin-bottom:20px;"><button type="button" class="btn btn-sm btn-danger" ng-click="model[options.key].splice($index, 1)">                Remove</button></div><hr></div><p class="AddNewButton"><button type="button" class="btn btn-primary" ng-click="addNew()" >{{to.btnText}}</button></p></div>',
       controller: function($scope) {
         $scope.formOptions = {
           formState: $scope.formState
