@@ -1,6 +1,6 @@
 'use strict';
 var webpack = require('webpack'),
-  path = require('path');
+var  path = require('path');
 
 var APP = __dirname + '/app';
 
