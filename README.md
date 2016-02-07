@@ -9,8 +9,7 @@ New EformJs framework for STEP
 ### How do I get set up? ###
 
 * Install webpack as global dependency
-sudo npm install webpack -g
-sudo npm install webpack-dev-server -g
+`sudo npm install webpack webpack-dev-server-g`
 
 * Install NodeJs
 * Run `npm install` to install dependencies
