@@ -13,5 +13,6 @@ sudo npm install webpack -g
 sudo npm install webpack-dev-server -g
 
 * Install NodeJs
-* Run npm install
-* To run application, run 'npm start'
+* Run `npm install` to install dependencies
+* To run application, run `npm start` to start the application on port 8080
+* all file changes will be hot deployed on the server
