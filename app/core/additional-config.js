@@ -1,7 +1,5 @@
 module.exports = function(app) {
-
   app.run(function(formlyConfig) {
-
     formlyConfig.setType({
       name: 'typeahead',
       template: '<input type="text" ng-model="personAddress[options.key]" uib-typeahead="item.name for item in to.options | filter:$viewValue | limitTo:8" class="form-control">',
@@ -43,11 +41,9 @@ module.exports = function(app) {
               addRandomIds(field.fieldGroup);
               return; // fieldGroups don't need an ID
             }
-
             if (field.templateOptions && field.templateOptions.fields) {
               addRandomIds(field.templateOptions.fields);
             }
-
             field.id = field.id || (field.key + '_' + index + '_' + unique + getRandomInt(0, 9999));
           });
         }
@@ -58,5 +54,4 @@ module.exports = function(app) {
       }
     });
   });
-
 };

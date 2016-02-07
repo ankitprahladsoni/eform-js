@@ -13,7 +13,6 @@
         <h2>Person Details</h2>
         <formly-form model="personDetails" fields="personDetailFormFields" form="personDetailForm">
           <div style="text-align:right">
-            <button type="button" wz-reset class="btn btn-primary submit-button">reset</button>
             <button type="submit" ng-disabled="personDetailForm.$invalid" wz-next class="btn btn-primary submit-button">Next</button>
           </div>
         </formly-form>
@@ -23,7 +22,6 @@
         <formly-form model="personOccupation" fields="personOccupationFormFields" form="personOccupationForm">
           <div style="text-align:right">
             <button type="button" wz-previous class="btn btn-primary submit-button">Previous</button>
-            <button type="submit" wz-reset class="btn btn-primary submit-button">reset</button>
             <button type="submit" ng-disabled="personOccupationForm.$invalid" wz-next class="btn btn-primary submit-button">Next</button>
           </div>
         </formly-form>
@@ -34,7 +32,6 @@
         <formly-form model="drugDetails" fields="drugDetailsFields" form="drugDetailsForm">
           <div style="text-align:right">
             <button type="button" wz-previous class="btn btn-primary submit-button">Previous</button>
-            <button type="submit" wz-reset class="btn btn-primary submit-button">reset</button>
             <button type="submit" ng-disabled="drugDetailsForm.$invalid" wz-next class="btn btn-primary submit-button">Next</button>
           </div>
         </formly-form>
@@ -45,7 +42,6 @@
         <formly-form model="medicalConditions" fields="medicalConditionsFields" form="medicalConditionsForm">
           <div style="text-align:right">
             <button type="button" wz-previous class="btn btn-primary submit-button">Previous</button>
-            <button type="submit" wz-reset class="btn btn-primary submit-button">reset</button>
             <button type="submit" ng-disabled="medicalConditionsForm.$invalid" wz-next class="btn btn-primary submit-button">Next</button>
           </div>
         </formly-form>
@@ -64,5 +60,4 @@
   </form>
   <script src="bundle.js"></script>
 </body>
-
 </html>

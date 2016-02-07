@@ -42,7 +42,7 @@ module.exports = function(app) {
       }, {
         "name": "Yukon",
         "value": "Yukon"
-      }, ];
+      } ];
     };
 
   });
