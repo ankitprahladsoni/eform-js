@@ -10,3 +10,6 @@ angular.element(document).ready(() => {
 });
 
 require('../eforms/eform-ctrl')(appModule);
+require('../eforms/eform-service')(appModule);
+require('../eforms/province')(appModule);
+require('./additional-config')(appModule);
