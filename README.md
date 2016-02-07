@@ -13,5 +13,5 @@ New EformJs framework for STEP
 
 * Install NodeJs
 * Run `npm install` to install dependencies
-* To run application, run `npm start` to start the application on port 8080
-* all file changes will be hot deployed on the server
+* Run `npm start` to start the application on port 8080
+* All file changes will be hot deployed on the server
