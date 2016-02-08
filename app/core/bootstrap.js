@@ -1,4 +1,3 @@
-/*jshint browser:true */
 'use strict';
 
 require('./vendor.js')();
@@ -13,3 +12,4 @@ require('../eforms/eform-ctrl')(appModule);
 require('../eforms/eform-service')(appModule);
 require('../eforms/province')(appModule);
 require('./additional-config')(appModule);
+require('../eforms/eform-external-service')(appModule);

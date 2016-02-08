@@ -216,7 +216,6 @@ module.exports = function(app) {
         hideExpression: 'model.hospitalized!="yes"'
       }];
     };
-
     return formServiceFactory;
   });
 };
