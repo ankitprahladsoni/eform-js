@@ -3,7 +3,7 @@
 New EformJs framework  
 ### What is this repository for? ###
 
-* New EformJs framework (an example using [angular-formly](http://angular-formly.com) and [webpack](http://webpack.github.io) and [angularjs](http://angularjs.org)) 
+* New EformJs framework (an example using [angular-formly](http://angular-formly.com), [webpack](http://webpack.github.io) and [angularjs](http://angularjs.org)) 
 * 0.0.1
 
 ### How do I get set up? ###
