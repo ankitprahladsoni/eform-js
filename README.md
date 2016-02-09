@@ -8,10 +8,8 @@ New EformJs framework
 
 ### How do I get set up? ###
 
-* Install webpack as global dependency
-`sudo npm install webpack webpack-dev-server -g`
-
 * Install NodeJs
+* Install webpack as global dependency `sudo npm install webpack webpack-dev-server -g`
 * Run `npm install` to install dependencies
 * Run `npm start` to start the application on port 8080
 * Access application on `http://localhost:8080`
