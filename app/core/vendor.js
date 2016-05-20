@@ -5,5 +5,8 @@ module.exports = function () {
   require('../../node_modules/angular-wizard/dist/angular-wizard.min.css');
 
   /* JS */
+
   require('angular');
+  require('angular-messages');
+  require('angular-animate');
 };

@@ -53,5 +53,11 @@ module.exports = function(app) {
         }
       }
     });
+
+ formlyConfig.setWrapper({
+   name: 'panel',
+     template: '<div class="panel panel-primary"><div class="panel-heading px-nested-panel-heading clearfix">            <strong class="control-label" ng-if="options.templateOptions.label">{{options.templateOptions.label}}            </strong></div><div class="panel-body px-nested-panel-body"><formly-transclude></formly-transclude>          </div></div>'
+   });
+
   });
 };
